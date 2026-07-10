@@ -54,25 +54,24 @@ The `figures/` folder contains example outputs generated during the analysis, in
 
 These visualizations demonstrate the progression from expression data to biological network interpretation.
 
----
-
 ## Repository Structure
+
+```text
 WGCNA/
 │
-├── WGCNA_ALS.Rmd # Complete WGCNA analysis workflow
-├── README.md # Project documentation
+├── WGCNA_ALS.Rmd        # Complete WGCNA analysis workflow
+├── README.md            # Project documentation
 │
-├── figures/
-│ ├── QC plots
-│ ├── module visualizations
-│ └── red module Cytoscape network
+├── figures/             # Example plots generated during analysis
+│   ├── QC plots
+│   ├── module visualizations
+│   └── red module Cytoscape network
 │
-└── results/
-├── module gene lists
-├── Cytoscape node files
-└── Cytoscape edge files
-
----
+└── results/             # Exported analysis outputs
+    ├── module gene lists
+    ├── Cytoscape node files
+    └── Cytoscape edge files
+```
 
 ## Tools & Skills
 
