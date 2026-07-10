@@ -10,6 +10,11 @@ This workflow demonstrates the processing, analysis, and visualization of transc
 
 ---
 
+View the complete interactive R Markdown report here:
+
+[WGCNA ALS Analysis Report]()
+
+
 ## Analysis Workflow
 
 The pipeline includes:
