@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a **Weighted Gene Co-expression Network Analysis (WGCNA)** workflow to identify gene networks associated with amyotrophic lateral sclerosis (ALS) using bulk RNA-seq expression data.
+This project implements a **Weighted Gene Co-expression Network Analysis (WGCNA)** workflow to identify gene networks associated with amyotrophic lateral sclerosis (ALS) in the frontal cortex using bulk RNA-seq expression data.
 
 WGCNA identifies groups of co-expressed genes (**modules**) and evaluates their relationships with clinical traits to uncover biologically relevant disease-associated networks.
 
