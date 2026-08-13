@@ -78,12 +78,12 @@ The metadata contains clinical information for each sample, while the TPM matrix
 
 ```{r, results='hide', message=FALSE, warning=FALSE}
 metadata <- read.csv(
-  "/gpfs/commons/groups/compbio/projects/ao_projects/RNA/Internship_2026/data/als_metadata.csv",
+  "/path/to/your/data",
   header = TRUE
 )
 
 tpm <- read.csv(
-  "/gpfs/commons/groups/compbio/projects/ao_projects/RNA/Internship_2026/data/als_gex_tpm.csv",
+  "/path/to/your/data",
   row.names = 1,
   check.names = FALSE
 )
